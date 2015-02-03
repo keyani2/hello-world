@@ -1,0 +1,43 @@
+ body{
+color: #212121;
+font-family: sans-serif;
+}
+nav a {
+text-decoration: none;
+color: #F5F5F5;
+background-color: #9E9E9E;
+border-radius: 2px;
+margin: 5px;
+padding: 5px;
+display: inline-block;
+transition: 1s all;
+}
+nav a:hover{
+background-color: #727272;
+}
+header {
+text-align: center;
+}
+header img{
+border-radius: 50%;
+}
+header h1{
+font-family: 'Lobster', cursive;
+}
+h2{
+color: #1FCCB2;
+}
+section{
+text-align: center;
+background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/103.jpg);
+height: 400px;
+background-size: cover;
+}
+button{
+color: #FFF;
+background-color: #F00;
+border: none;
+border-radius: 3px;
+padding: 5px;
+margin-top: 40px;
+}
