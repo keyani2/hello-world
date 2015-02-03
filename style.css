@@ -33,6 +33,11 @@ background-image: url(https://s3.amazonaws.com/StartupStockPhotos/20140808_Start
 height: 400px;
 background-size: cover;
 }
+
+#features{
+ background-color:blue
+ height:250px;
+}
 button{
 color: #FFF;
 background-color: #F00;
