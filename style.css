@@ -22,3 +22,9 @@ margin-top: 40px;
 .menu-selected {
  background-color: red;
 }
+
+table {
+ width: 390px;
+ margin: 0 auto;
+ 
+}
