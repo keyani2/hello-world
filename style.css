@@ -28,3 +28,35 @@ table {
  margin: 0 auto;
  
 }
+
+.button {
+   border-top: 1px solid #f7fffb;
+   background: #8642ad;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d42626), to(#8642ad));
+   background: -webkit-linear-gradient(top, #d42626, #8642ad);
+   background: -moz-linear-gradient(top, #d42626, #8642ad);
+   background: -ms-linear-gradient(top, #d42626, #8642ad);
+   background: -o-linear-gradient(top, #d42626, #8642ad);
+   padding: 20px 40px;
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #cf2987;
+   background: #cf2987;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
