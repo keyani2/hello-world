@@ -57,8 +57,11 @@ table {
    }
 .button:active {
    border-top-color: #1b435e;
-   
-   /*
+   background: #1b435e;
+   }
+
+
+/*
 ----------------------------
 LAYOUT
 ____________________________
@@ -93,6 +96,3 @@ display: table; /* 2 */
 .clearfix:after {
 clear: both;
 }
-   
-   background: #1b435e;
-   }
